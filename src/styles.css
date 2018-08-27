@@ -1,0 +1,30 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.credit {
+  background-image: url(https://uploads.codesandbox.io/uploads/user/86f69bfd-5831-43a2-80aa-0c8a2b4e00c8/pBRl-creditCard.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+.creditNumber {
+  position: relative;
+  padding-top: 300px;
+  color: rgb(70, 101, 122);
+  font-family: Tahoma;
+}
+.ValidThru {
+  position: relative;
+  padding-right: 480px;
+  padding-top: 65px;
+  color: rgb(46, 79, 107);
+  font-family: Tahoma;
+}
+.name {
+  position: relative;
+  padding-left: 100px;
+  color: rgb(46, 79, 107);
+  font-family: Tahoma;
+}
