@@ -22,7 +22,7 @@ class App extends React.Component {
   }
   handleChangeName(event) {
     let cardName = event.target.value;
-    cardName = cardName.replace(/[^a-zA-Z]/g, "").toUpperCase();
+    cardName = cardName.replace(/[^a-zA-Z ]/g, "").toUpperCase();
 
     this.setState({ cardname: cardName });
   }
